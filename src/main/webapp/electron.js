@@ -89,7 +89,7 @@ function createWindow (opt = {})
 			// preload: path.resolve('./preload.js'),
 			nodeIntegration: true,
 			nodeIntegrationInWorker: true,
-			spellcheck: isMac,
+			spellcheck: true,
 			contextIsolation: false,
 			nativeWindowOpen: true
 		}
